@@ -3,18 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package advancedjava;
+package pointofsale;
+
+import javax.swing.JFrame;
 
 /**
  *
  * @author Admin
  */
-public class Client extends javax.swing.JFrame {
+public class ServerTest extends javax.swing.JFrame {
 
     /**
-     * Creates new form Client
+     * Creates new form ServerTest
      */
-    public Client() {
+    public ServerTest() {
         initComponents();
     }
 
@@ -46,7 +48,11 @@ public class Client extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
+    public static void runServer() {
+        
+      
+        
+        
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
@@ -60,20 +66,20 @@ public class Client extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Client.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ServerTest.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Client.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ServerTest.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Client.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ServerTest.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Client.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ServerTest.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+        
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Client().setVisible(true);
+                new ServerTest().setVisible(true);
             }
         });
     }

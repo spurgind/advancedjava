@@ -3,7 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/AdvancedJava/src/advancedjava/Server.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PointOfSale/src/pointofsale/ClientInterface.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PointOfSale/src/pointofsale/CustomerVar.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PointOfSale/src/pointofsale/ServerClient.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PointOfSale/src/pointofsale/ServerTest.java</file>
+            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/PointOfSale/src/pointofsale/SelectProcess.java</file>
         </group>
     </open-files>
 </project-private>
